@@ -1604,7 +1604,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd.xml \
     android.hardware.wifi.supplicant.xml \
     android.hardware.wifi@1.0-service.xml \
-    gnss-default.xml \
     gnss@2.1-service.xml \
     lbs_hidl_service@1.0.xml \
     lights-mtk-default.xml \
