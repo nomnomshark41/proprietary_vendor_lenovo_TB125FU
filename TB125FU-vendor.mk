@@ -49,10 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB125FU/proprietary/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.1.so \
     vendor/lenovo/TB125FU/proprietary/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.2.so \
     vendor/lenovo/TB125FU/proprietary/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.3.so \
-    vendor/lenovo/TB125FU/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/lenovo/TB125FU/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
-    vendor/lenovo/TB125FU/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
-    vendor/lenovo/TB125FU/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/lenovo/TB125FU/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/lenovo/TB125FU/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/lenovo/TB125FU/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
@@ -1588,7 +1584,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB125FU/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/lenovo/TB125FU/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta \
     vendor/lenovo/TB125FU/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
-
+	
+ODM_MANIFEST_FILES += \
+    vendor/lenovo/TB125FU/proprietary/odm/etc/vintf/manifest_dsds.xml \
+    vendor/lenovo/TB125FU/proprietary/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/lenovo/TB125FU/proprietary/odm/etc/vintf/manifest_ss.xml \
+    vendor/lenovo/TB125FU/proprietary/odm/etc/vintf/manifest_tsts.xml
+	
 PRODUCT_PACKAGES += \
     GoogleNetworkStackResOverlay \
     GoogleTetheringResOverlay \
