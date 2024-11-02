@@ -5,13 +5,4 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),TB125FU)
-include $(CLEAR_VARS)
-LOCAL_MODULE := libfmjni
-LOCAL_SRC_FILES := proprietary/lib64/libfmjni.so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
-LOCAL_MODULE_TAGS := optional
-LOCAL_MULTILIB := 64  
-include $(BUILD_PREBUILT)
-
 endif
