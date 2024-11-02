@@ -9,7 +9,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
 	name: "libfmjni",
-	owner: "xiaomi",
+	owner: "lenovo",
 	strip: {
 		none: true,
 	},
