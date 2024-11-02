@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB125FU/proprietary/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.2.so \
     vendor/lenovo/TB125FU/proprietary/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/lenovo/TB125FU/proprietary/lib64/libdatasource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdatasource.so \
-    vendor/lenovo/TB125FU/proprietary/lib64/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfmjni.so \
     vendor/lenovo/TB125FU/proprietary/lib64/libged_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libged_sys.so \
     vendor/lenovo/TB125FU/proprietary/lib64/libgralloc_extra_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgralloc_extra_sys.so \
     vendor/lenovo/TB125FU/proprietary/lib64/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_codeclist.so \
@@ -1593,6 +1592,7 @@ ODM_MANIFEST_FILES += \
     vendor/lenovo/TB125FU/proprietary/odm/etc/vintf/manifest_tsts.xml
 	
 PRODUCT_PACKAGES += \
+    libfmjni \
     GoogleNetworkStackResOverlay \
     GoogleTetheringResOverlay \
     InProcessTetheringResOverlay \
