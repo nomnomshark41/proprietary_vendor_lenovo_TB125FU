@@ -1612,7 +1612,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_2_default.xml \
-    power-default.xml \
     vendor.dolby.hardware.dms.xml \
     vendor.lenovo.hardware.battery@1.0-service.xml \
     vendor.lenovo.hardware.factory@1.0-service.xml \

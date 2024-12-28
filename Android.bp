@@ -217,15 +217,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "power-default.xml",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/vintf/manifest/power-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.dolby.hardware.dms.xml",
 	owner: "lenovo",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml",
