@@ -1617,4 +1617,3 @@ PRODUCT_PACKAGES += \
     vendor.lenovo.hardware.factory@1.0-service.xml \
     vendor.lenovo.hardware.misc@1.0-service.xml \
     vendor.lenovo.hardware.touchscreen@1.0-service.xml \
-    vibrator-mtk-default.xml
