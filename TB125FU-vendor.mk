@@ -402,7 +402,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TB125FU/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/lenovo/TB125FU/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
     vendor/lenovo/TB125FU/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
-    vendor/lenovo/TB125FU/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
     vendor/lenovo/TB125FU/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
     vendor/lenovo/TB125FU/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/lenovo/TB125FU/proprietary/vendor/etc/init/microtrust.init_thh.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.init_thh.rc \
@@ -1609,7 +1608,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service.xml \
     gnss@2.1-service.xml \
     lbs_hidl_service@1.0.xml \
-    lights-mtk-default.xml \
     manifest_android.hardware.drm@1.4-service.clearkey.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_hwcomposer.xml \
