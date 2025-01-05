@@ -1604,16 +1604,9 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
     android.hardware.wifi.hostapd.xml \
-    android.hardware.wifi.supplicant.xml \
     android.hardware.wifi@1.0-service.xml \
     gnss@2.1-service.xml \
-    lbs_hidl_service@1.0.xml \
     manifest_android.hardware.drm@1.4-service.clearkey.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_2_default.xml \
-    vendor.dolby.hardware.dms.xml \
-    vendor.lenovo.hardware.battery@1.0-service.xml \
-    vendor.lenovo.hardware.factory@1.0-service.xml \
-    vendor.lenovo.hardware.misc@1.0-service.xml \
-    vendor.lenovo.hardware.touchscreen@1.0-service.xml \
