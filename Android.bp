@@ -143,14 +143,6 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "android.hardware.wifi.supplicant.xml",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
 
 prebuilt_etc_xml {
 	name: "android.hardware.wifi@1.0-service.xml",
@@ -166,15 +158,6 @@ prebuilt_etc_xml {
 	name: "gnss@2.1-service.xml",
 	owner: "lenovo",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "lbs_hidl_service@1.0.xml",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -215,51 +198,3 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
-
-prebuilt_etc_xml {
-	name: "vendor.dolby.hardware.dms.xml",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.lenovo.hardware.battery@1.0-service.xml",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.lenovo.hardware.battery@1.0-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.lenovo.hardware.factory@1.0-service.xml",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.lenovo.hardware.factory@1.0-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.lenovo.hardware.misc@1.0-service.xml",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.lenovo.hardware.misc@1.0-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.lenovo.hardware.touchscreen@1.0-service.xml",
-	owner: "lenovo",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.lenovo.hardware.touchscreen@1.0-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-
-
