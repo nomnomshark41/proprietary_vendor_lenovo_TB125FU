@@ -1603,7 +1603,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
-    android.hardware.wifi.hostapd.xml \
     android.hardware.wifi@1.0-service.xml \
     gnss@2.1-service.xml \
     manifest_android.hardware.drm@1.4-service.clearkey.xml \
