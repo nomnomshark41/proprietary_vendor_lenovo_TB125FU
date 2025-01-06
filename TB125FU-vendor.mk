@@ -1598,7 +1598,6 @@ PRODUCT_PACKAGES += \
     NetworkStackInProcessResOverlay \
     NetworkStackResOverlay \
     TetheringResOverlay \
-    android.hardware.boot@1.2.xml \
     android.hardware.cas@1.2-service.xml \
     android.hardware.health@2.1.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml \
