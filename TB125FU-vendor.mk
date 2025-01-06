@@ -1600,7 +1600,7 @@ PRODUCT_PACKAGES += \
     TetheringResOverlay \
     android.hardware.health@2.1.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml \
-    android.hardware.usb@1.2-service-mediatekv2.xml \
+    android.hardware.usb.gadget@1.2-service-mediatekv2.xml \
     gnss@2.1-service.xml \
     manifest_android.hardware.drm@1.4-service.clearkey.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
