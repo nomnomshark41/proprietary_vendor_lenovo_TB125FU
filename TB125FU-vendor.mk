@@ -1608,4 +1608,4 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.clearkey.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_hwcomposer.xml \
-    manifest_media_c2_V1_2_default.xml \
+    manifest_media_c2_V1_2_default.xml
